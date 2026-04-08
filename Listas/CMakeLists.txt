@@ -3,5 +3,7 @@ project(Listas)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Listas
-        Lista01/A-Q1/main.cpp)
+add_executable(Lista
+        Lista01/A-SomaSimples/Q1.cpp
+        Lista01/B-PerimetroRetangulo/Q2.cpp)
+
