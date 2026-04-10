@@ -2,19 +2,21 @@
 #include <iostream>
 
 
-float areaCirculo(float perimetro, float pi) {
-    float res = pi*(perimetro*perimetro);
+float areaCirculo(float raio, float pi) {
+    float res = pi*(raio*raio);
     return res;
 }
 
  
 int main() {
 
-    float perimetro , pi;
+    float perimetro , pi, raio;
     pi = 3.14159;
 
     std::cin >> perimetro;
 
-    std::cout << std::fixed <<std::setprecision(5) << areaCirculo(perimetro, pi) <<std::endl;
+    raio = perimetro/2;
+
+    std::cout << std::fixed <<std::setprecision(5) << areaCirculo(raio, pi) <<std::endl;
     return 0;
 }
