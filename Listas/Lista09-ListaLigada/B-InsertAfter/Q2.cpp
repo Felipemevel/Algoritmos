@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 class ll_int {
 private:
     struct ll_int_node {
@@ -139,6 +140,24 @@ public:
             }
         }
         current->value = value;
+    }
+    void insert_at(int x, int value) {
+        ll_int_node *new_node = new ll_int_node;
+        new_node->value = value;
+
+        ll_int_node *current = this->head;
+        while (current->next != nullptr) {
+            if (current->next->value == x) {
+                current = current->next;
+                new_node->next = current->next;
+                current->next = new_node;
+                return;
+
+            }
+            current = current->next;
+        }
+        this->tail->next = new_node;
+        new_node->next = nullptr;
     }
 };
 

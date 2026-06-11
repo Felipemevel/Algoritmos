@@ -17,3 +17,8 @@ add_executable(Lista04
         Lista04-big-oh/I-MeiaVida/Q9.cpp
         Lista04-big-oh/J-RepeticaoArray/Q10.cpp
 )
+
+# ================ LISTA 09 ================
+
+add_executable(L9Q1 Lista09-ListaLigada/A-VetorLigado/Q1.cpp)
+add_executable(L9Q2 Lista09-ListaLigada/B-InsertAfter/Q2.cpp)
