@@ -1,0 +1,19 @@
+# --- Compilação e Build ---
+# Ignora a pasta de build do CMake que está gerando sujeira
+cmake-build-debug/
+/Listas/cmake-build-debug/
+
+# Ignora arquivos de build genéricos e executáveis compilados
+*.o
+*.out
+*.exe
+
+# --- Configurações de IDEs ---
+# Ignora as pastas de configuração do CLion / IntelliJ
+.idea/
+/Listas/.idea/
+
+# --- Arquivos de Sistema ---
+# Ignora arquivos ocultos de indexação de pastas do Linux (KDE/Dolphin)
+.directory
+.DS_Store
