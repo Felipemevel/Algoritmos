@@ -28,3 +28,4 @@ add_executable(L8_Q6 Listas/Lista08-VetorDinamico/F-AdicionarVetor/Q6.cpp)
 
 add_executable(L9_Q1 Listas/Lista09-ListaLigada/A-VetorLigado/Q1.cpp)
 add_executable(L9_Q2 Listas/Lista09-ListaLigada/B-InsertAfter/Q2.cpp)
+add_executable(L9_Q3 Listas/Lista09-ListaLigada/C-RemoçãoIndiceValor/Q3.cpp)
