@@ -30,3 +30,9 @@ add_executable(L9_Q1 Listas/Lista09-ListaLigada/A-VetorLigado/Q1.cpp)
 add_executable(L9_Q2 Listas/Lista09-ListaLigada/B-InsertAfter/Q2.cpp)
 add_executable(L9_Q3 Listas/Lista09-ListaLigada/C-RemoçãoIndiceValor/Q3.cpp)
 add_executable(L9_Q4 Listas/Lista09-ListaLigada/D-MoverMenorPrimeiro/Q4.cpp)
+add_executable(L9_Q5 Listas/Lista09-ListaLigada/E-CompararValoresEntreListas/Q5.cpp)
+
+# --- LISTA 10 ---
+
+add_executable(L10_Q1 Listas/Lista10-Backtracking01-Labirinto/A-CaminhoValido/Q1.cpp)
+add_executable(L10_Q2 Listas/Lista10-Backtracking01-Labirinto/B-QtdCaminhosValidos/Q2.cpp)
